@@ -1,5 +1,5 @@
  # COVID-19-Bosnia and Herzegovina Tracker
- This is small program made in Python to show COVID-19 statistics in Bosnia and Herzegovina.
+ This is simple program with GUI made in Python to show COVID-19 statistics in Bosnia and Herzegovina.
  
  ## GENERAL INFO
 :arrow_right: API USED TO BUILD THIS PROGRAM: https://github.com/disease-sh/api :arrow_left:
