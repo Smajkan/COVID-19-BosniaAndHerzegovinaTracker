@@ -28,6 +28,7 @@ def CovidDostaviInformacije():
 
     label2.config(text=datum)
 
+
     # GUI ZA APLIKACIJU
 canvas = tk.Tk()
 canvas.geometry("400x400")
@@ -36,7 +37,7 @@ canvas.title("COVID-19 STATISTIKA - BIH")
 # ZASTAVA BOSNE
 canvas.iconbitmap(
     r'C:\Users\dell\Desktop\Projects\CoronaTrackerPython\bosniaflag.ico')
-# 'C:\Users\dell\Desktop\Projects\CoronaTrackerPython\bosniaflag.ico'
+# 'C:\Users\imeusera\Desktop\ImeFolderaGdjeSteSpremiliBosniaflag.ico\bosniaflag.ico'
 
 # font koji ćemo koristiti
 f = ("popins", 15, "bold")
