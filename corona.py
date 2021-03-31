@@ -15,6 +15,7 @@ def CovidDostaviInformacije():
     ukupno_mrtvih = str(json_data['deaths'])
     umrlo_danas = str(json_data['todayDeaths'])
     aktivnih = str(json_data['active'])
+    novi_slucajevi = str(json_data['todayCases'])
     ukupno_oporavljenih = str(json_data['recovered'])
     osvjezavanje_izvresno_u = json_data['updated']
     # konvertuje u ispravno vrijeme i datum
@@ -24,12 +25,14 @@ def CovidDostaviInformacije():
                  + "\n"+"Ukupno preminulih: " + ukupno_mrtvih
                  + "\n"+"Ukupno aktivni slučajeva: " + aktivnih
                  + "\n"+"Ukupno oporavljenih: " + ukupno_oporavljenih
-                 + "\n"+"Preminulih danas: " + umrlo_danas)
+                 + "\n"+"Preminulih danas: " + umrlo_danas
+                 + "\n"+"Novi slučajeva: " + novi_slucajevi)
 
+    label3.config(text="Ažurirano: ")
     label2.config(text=datum)
 
 
-    # GUI ZA APLIKACIJU
+# GUI ZA APLIKACIJU
 canvas = tk.Tk()
 canvas.geometry("400x400")
 canvas.title("COVID-19 STATISTIKA - BIH")
@@ -42,6 +45,7 @@ canvas.iconbitmap(
 # font koji ćemo koristiti
 f = ("popins", 15, "bold")
 
+
 # buttoni i labeli
 button = tk.Button(canvas, font=f, text="PRIKAŽI",
                    command=CovidDostaviInformacije)
@@ -50,6 +54,11 @@ button.pack(pady=20)
 # label da se pokažu podaci
 label = tk.Label(canvas, font=f)
 label.pack(pady=20)
+
+
+# Prije ispisa vremena
+label3 = tk.Label(canvas, font=5)
+label3.pack()
 
 # Ovdje se prikazuje vrijeme od kada su informacije
 label2 = tk.Label(canvas, font=8)
