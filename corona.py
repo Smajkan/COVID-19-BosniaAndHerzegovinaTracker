@@ -36,7 +36,7 @@ canvas.title("COVID-19 STATISTIKA - BIH")
 
 # ZASTAVA BOSNE
 canvas.iconbitmap(
-    r'C:\Users\dell\Desktop\Projects\CoronaTrackerPython\bosniaflag.ico')
+    r'./bosniaflag.ico')
 # 'C:\Users\imeusera\Desktop\ImeFolderaGdjeSteSpremiliBosniaflag.ico\bosniaflag.ico'
 
 # font koji ćemo koristiti
