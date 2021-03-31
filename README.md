@@ -27,7 +27,7 @@ In your cmd / terminal run the following command:
 :eyes: This simple program looks like this:
 
 
-![COVID-19-BosniaAndHerzegovinaTrackerPreviewApp](https://i.imgur.com/NnPwUVe.png)
+![COVID-19-BosniaAndHerzegovinaTrackerPreviewApp](https://i.imgur.com/KFoIJfl.png)
 
 
  - - - -
