@@ -13,7 +13,7 @@
  
  In your cmd / terminal run the following command:
  
- `pip install requests2`
+`pip install requests`
 
 ***Running:***
 
